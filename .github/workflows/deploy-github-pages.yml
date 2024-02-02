@@ -7,16 +7,16 @@ on:
     paths:
       - "schema/**"
   workflow_dispatch:
-permissions:
-  contents: "read"
-  pages: "write"
-  id-token: "write"
 concurrency:
   group: "deploy-github-pages"
   cancel-in-progress: false
 jobs:
   main:
     name: "Main"
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
     runs-on: "ubuntu-latest"
     environment:
       name: "github-pages"
