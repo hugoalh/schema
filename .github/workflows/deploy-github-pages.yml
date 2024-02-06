@@ -30,6 +30,6 @@ jobs:
         uses: "actions/upload-pages-artifact@v3.0.0"
         with:
           path: "schema/"
-      - name: "Deploy To GitHub Pages"
+      - name: "Deploy GitHub Pages"
         id: "deployment"
-        uses: "actions/deploy-pages@v4.0.3"
+        uses: "actions/deploy-pages@v4.0.4"
