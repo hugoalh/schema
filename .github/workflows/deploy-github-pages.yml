@@ -23,7 +23,7 @@ jobs:
       url: "${{steps.deployment.outputs.page_url}}"
     steps:
       - name: "Checkout Repository"
-        uses: "actions/checkout@v4.1.5"
+        uses: "actions/checkout@v4.1.6"
       - name: "Configure GitHub Pages"
         uses: "actions/configure-pages@v5.0.0"
       - name: "Upload GitHub Pages Artifact"
