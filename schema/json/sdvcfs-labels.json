@@ -1,8 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"deprecated": true,
-	"title": "GitHub Labels",
-	"description": "JSON schema for GitHub labels, compatible with most kind of labels manager.",
+	"title": "Software Development Version Control Forge Software Labels",
+	"description": "JSON schema for software development version control forge software labels, compatible with most kind of labels manager.",
 	"type": "array",
 	"items": {
 		"type": "object",
@@ -16,6 +15,11 @@
 			"color": {
 				"type": "string",
 				"description": "Colour of the label.",
+				"pattern": "^#?[\\dA-Fa-f]{6}$"
+			},
+			"colour": {
+				"type": "string",
+				"description": "(Alternative) Colour of the label.",
 				"pattern": "^#?[\\dA-Fa-f]{6}$"
 			},
 			"description": {
