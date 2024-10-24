@@ -1,8 +1,7 @@
 [hugoalh]: https://github.com/hugoalh
-[hugoalh-studio]: https://github.com/hugoalh-studio
 
-# hxhS ([hugoalh][hugoalh] & [hugoalh Studio][hugoalh-studio]) Schema Store
+# [hugoalh][hugoalh] Schema Store
 
 [**⚖️** CC0-1.0](./LICENSE.md)
 
-Another schema store by hxhS ([hugoalh][hugoalh] & [hugoalh Studio][hugoalh-studio]).
+Another schema store by [hugoalh][hugoalh].
