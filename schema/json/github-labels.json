@@ -1,6 +1,5 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"deprecated": true,
 	"title": "GitHub Labels",
 	"description": "JSON schema for GitHub labels, compatible with most kind of labels manager.",
 	"type": "array",
@@ -23,16 +22,6 @@
 				"description": "Description of the label.",
 				"minLength": 1,
 				"pattern": "^(?:[^\\s].*)?[^\\s]$"
-			},
-			"exclusive": {
-				"type": "boolean",
-				"description": "Whether the label is mutually exclusive to the labels with the same scope.",
-				"default": false
-			},
-			"is_archived": {
-				"type": "boolean",
-				"description": "Whether the label is archived.",
-				"default": false
 			},
 			"aliases": {
 				"type": "array",
